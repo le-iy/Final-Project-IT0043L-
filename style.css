@@ -1,0 +1,60 @@
+    body {
+        margin          : 0;
+        padding         : 0;
+        font-family     : Arial, sans-serif;
+        background-color: #f2f2f2;
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        height          : 100vh;
+    }
+
+    /* LogIn Format */
+    .login-format {
+        margin          : 0;
+        padding         : 0;
+        font-family     : Arial, sans-serif;
+        background      : url('https://media.istockphoto.com/id/1201809645/vector/yellow-brick-tile-wall.jpg?s=612x612&w=0&k=20&c=79wERveM8X7dUI7vevMzcA3WzO7z5b1lniURMu5Bdko=') no-repeat center center fixed;
+        background-size : cover;
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        height          : 100vh;
+    }
+    
+    .login-container {
+        background-color: #ffffff;
+        padding         : 40px;
+        border-radius   : 10px;
+        box-shadow      : 0 4px 12px rgba(0, 0, 0, 0.1);
+        width           : 300px;
+    }
+
+    .login-container h2 {
+        text-align      : center;
+        margin-bottom   : 24px;
+    }
+
+    .login-container input[type = "text"],
+    .login-container input[type = "password"] {
+        width           : 100%;
+        padding         : 10px;
+        margin-bottom   : 16px;
+        border          : 1px solid #cccccc;
+        border-radius   : 6px;
+    }
+
+    .login-container button {
+        width           : 100%;
+        padding         : 10px;
+        background-color: #4CAF50;
+        color           : #ffffff;
+        border          : none;
+        border-radius   : 6px;
+        cursor          : pointer;
+        font-size       : 16px;
+    }
+
+    .login-container button:hover {
+        background-color: #45a049;
+    }

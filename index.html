@@ -1,0 +1,47 @@
+<!--LOG IN PAGE-->
+
+<html>
+    <head>
+        <meta charset   = "UTF-8" />
+        <meta   name    = "viewport"
+                content = "width = device-width, initial scale = 1.0"
+        />
+
+        <title> 24 Chicken - MockUp Site </title>
+
+
+        <!-- LINKS -->
+            <!-- CSS Link -->
+            <link rel = "stylesheet" href = "style.css" />
+            
+            <!-- JS Link -->
+            <script src = "validation.js" defer></script>
+        <!-- ...... -->
+
+
+        <!--alert notif for default user and pass-->
+        <script>
+            alert("Hi! \n\n Please use defaults \n      Username  : newChick \n      Password   : 24310 \n\n Ty! :D");
+        </script>
+    </head>
+
+    
+    <body class = "login-format">
+            <div class = "login-container">
+                <h2> Login Creggdentials O> </h2>
+                <form onsubmit          = "return loginValidation()">
+                    <input  type        = "text" 
+                            id          = "username" 
+                            placeholder = "Username" 
+                            required
+                    />
+                    <input  type        = "password" 
+                            id          = "password" 
+                            placeholder = "Password" 
+                            required
+                    />
+                    <button type  = "submit"> Login </button>
+                </form>
+            </div>
+    </body>
+</html>
