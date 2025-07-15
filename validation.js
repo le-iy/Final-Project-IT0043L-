@@ -6,7 +6,7 @@ function loginValidation() {
 
     if (username === "newChick" && password === "24310") {
         sessionStorage.setItem("loggedIn", "true");
-        window.location.href = "homePage.html"; // rekta sa home
+        window.location.href = "HomePage.html"; // rekta sa home
         return false;
     } else {
         alert("Wrong Egg. Please crack another.");
