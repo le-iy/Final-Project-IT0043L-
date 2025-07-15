@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* 24chicken sign
+
 /* flexible body format */
-    html, body {
+    body {
+        
         margin          : 0;
         padding         : 0;
-        font-family     : Arial, sans-serif;
+        font-family     : 'Dancing';
+        font-weight     : bold;
         background-color: #fff3e3;
     }
 
-    header, h1 {
-        margin: 0;
-    }
-
-    
+/* ------ LOG IN ------ */
 /* Start ------------------- LogIn */
     .login-format {
         margin          : 0;
@@ -63,12 +63,13 @@
 /* End --------------------- LogIn */
 
 
+
 /* ------ HOME ------ */
 /* Start ------------------- NavBar */
     .home-format {
         margin          : 0;
         padding         : 0;
-        font-family     : Arial, sans-serif;
+        font-family     : 'Dancing Script';
         background-color: #fff3e3;
     }
 
@@ -96,7 +97,7 @@
     .nav-logo {
         width           : 100px;
         height          : 45px;
-        margin-right    : 10px;
+        margin-right    : 20px;
     }
 
 
@@ -126,7 +127,6 @@
 
 /* End --------------------- NavBar */
 
-
 /* Start ------------------- Carousel */
     .carousel-wrapper {
         width           : 100%;
@@ -143,10 +143,18 @@
 
 /* End --------------------- Carousel */
 
+/* Start --------------------- Accordion */
+    #accordionPart {
+        margin-top      : 30px;
+        padding         : 20px;
+        border-radius   : 30px;
+    }
+/* End --------------------- Accordion */
 
 
+
+/* ------ SERVICES ------ */
 /* CARDS FOR PRODUCTS AND SERVICES */
-
   .card-row {
     display: flex;
     justify-content: space-between;
