@@ -1,16 +1,16 @@
 /* flexible body format */
-    body {
+    html, body {
         margin          : 0;
         padding         : 0;
         font-family     : Arial, sans-serif;
-        background-color: #f2f2f2;
-        display         : flex;
-        justify-content : center;
-        align-items     : center;
-        height          : 100vh;
+        background-color: #fff3e3;
     }
 
+    header, h1 {
+        margin: 0;
+    }
 
+    
 /* Start ------------------- LogIn */
     .login-format {
         margin          : 0;
@@ -63,7 +63,15 @@
 /* End --------------------- LogIn */
 
 
+/* ------ HOME ------ */
 /* Start ------------------- NavBar */
+    .home-format {
+        margin          : 0;
+        padding         : 0;
+        font-family     : Arial, sans-serif;
+        background-color: #fff3e3;
+    }
+
     .navbar {
         display         : flex;
         justify-content : space-between;
@@ -116,9 +124,39 @@
         text-decoration : none;
     }
 
-
-    /* position = down from navbar */
-    body:not(.login-page) {
-        padding-top     : 60px;
-    }
 /* End --------------------- NavBar */
+
+
+/* Start ------------------- Carousel */
+    .carousel-wrapper {
+        width           : 100%;
+        height          : 600px;
+        margin          : 0 auto;      
+        overflow        : hidden;
+    }
+
+    .carousel-wrapper .carousel-inner img {
+        width           : 100%;
+        height          : 100%;
+        object-fit      : cover;
+    }
+
+/* End --------------------- Carousel */
+
+
+
+/* CARDS FOR PRODUCTS AND SERVICES */
+
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Add some space between the cards */
+    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+  }
+  .card-col {
+    flex: 1;
+    max-width: 30%; /* Control the size of each card */
+    min-width: 280px; /* Set a minimum width for responsive design */
+  }
+
+  
